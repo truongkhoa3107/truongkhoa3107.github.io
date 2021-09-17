@@ -21,4 +21,5 @@ $(document).ready(function () {
         $('html, body').animate({scrollTop: $($(this).data('id')).offset().top - 72}, 1000);
         $(this).parent().addClass('active');
     })
+
 });
