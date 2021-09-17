@@ -1,0 +1,200 @@
+* {margin: 0; padding: 0}
+
+.contact {
+    padding: 213px 0;
+}
+
+.download {
+    padding: 100px 0;
+}
+
+.portfolio ._1khoianh:hover:before {
+    opacity: 0.9;
+}
+.portfolio ._1khoianh:hover .info_img {
+    opacity: 1;
+}
+
+.portfolio ._1khoianh:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f4623a;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.portfolio .info_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.2s;
+    opacity: 0;
+}
+
+.services i {
+    font-size: 40px;
+    color: #f4623a;
+    padding-bottom: 15px;
+}
+
+.about, .services {
+    background: #f4623a;
+    padding: 8rem 0;
+}
+.services {
+    background: white;
+}
+
+p {
+    font-size: 20px;
+    color: rgba(227,227,227,0.9);
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 17px;
+}
+
+.menutop {
+    padding: 20px 0;
+    transition: 0.4s;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.menutop.px-lg-5.biendoi {
+    background: white;
+}
+
+.menutop.navbar-dark .nav-link {
+    font-weight: 700;
+    padding: 0px 18px;
+    color: rgba(227,227,227,0.7);
+}
+
+a.navbar-brand.nav-link.logo {
+    font-size: 22px;
+}
+
+.biendoi.menutop a.nav-link {
+    color: black;
+}
+
+.biendoi.menutop a.nav-link:hover {
+    color: #f4623a;
+}
+
+.biendoi.navbar-dark .active > .nav-link {
+    color: #f4623a;
+}
+
+.menutop.navbar-dark .nav-link:hover {
+    color: white;
+}
+
+.main {
+    background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(Images/background.jpg);
+    height: 100vh;
+    min-height: 40rem;
+    background-size: cover;
+    background-position: center;
+    padding-top: 10%;
+}
+
+.main .barrier, .services .barrier, .contact .barrier {
+    background: #f4623a;
+}
+
+.barrier {
+    width: 50px;
+    height: 3px;
+    margin: 25px 0;
+}
+
+.about .barrier {
+    background: white;
+}
+
+.main a, .contact a {
+    background: #f4623a;
+    color: white;
+}
+a.btn.nut {
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 20px 35px;
+    border: none;
+    margin-top: 20px;
+}
+
+.about a, .download a {
+    background: white;
+    color: black;
+}
+
+.main a.btn.nut:hover {
+    background-color: #cf5331;
+    color: rgba(255, 255, 255, 0.664);
+}
+
+.main h1 {
+    font-weight: 500;
+}
+
+@media (max-width: 991px) {
+    *{}
+    
+    li._1khoi {
+        padding-bottom: 20px;
+    }
+
+    .khoimenu {
+        padding-bottom: 14px;
+    }
+
+    .main h1 {
+        font-size: 40px;
+    }
+
+    .main {
+        height: 570px;
+    }
+
+    .menutop.navbar-dark ul li a.nav-link:hover {
+        color: #f4623a;
+    }
+
+    .menutop.navbar-dark a.nav-link {
+        color: rgba(0,0,0,0.5);
+    }
+    
+    /* .navbar-dark .navbar-nav .nav-link:focus {
+        color: rgba(0,0,0,0.5);
+    } */    
+    
+
+    .menutop.navbar-dark .navbar-nav .active > .nav-link {
+        color: #f4623a;
+    }
+
+    button.navbar-toggler.hidden-lg-up {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        color: rgba(0, 0, 0, 0.2);
+        font-size: 30px;
+        padding: 5px 10px;
+        margin: 8px 0;
+    }
+
+    .menutop {
+        background: white;
+        margin: 0;
+    }
+
+    a.navbar-brand.nav-link.logo {
+        color: black!important;
+    }
+}
